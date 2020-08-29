@@ -28,6 +28,8 @@
 		B42667DF24FA8119008BFB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B42667E824FA8363008BFB71 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		B42667EA24FA83E6008BFB71 /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
+		B42667EC24FA8B84008BFB71 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B42667ED24FA8BE4008BFB71 /* HomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,8 @@
 		B42667C524FA8114008BFB71 = {
 			isa = PBXGroup;
 			children = (
+				B42667EC24FA8B84008BFB71 /* README.md */,
+				B42667ED24FA8BE4008BFB71 /* HomeScreen.png */,
 				B42667D024FA8114008BFB71 /* Destini */,
 				B42667CF24FA8114008BFB71 /* Products */,
 			);
