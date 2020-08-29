@@ -59,12 +59,20 @@
 				B42667D124FA8114008BFB71 /* AppDelegate.swift */,
 				B42667D324FA8114008BFB71 /* SceneDelegate.swift */,
 				B42667D524FA8114008BFB71 /* ViewController.swift */,
-				B42667D724FA8114008BFB71 /* Main.storyboard */,
+				B42667E524FA814E008BFB71 /* Views */,
 				B42667DA24FA8119008BFB71 /* Assets.xcassets */,
-				B42667DC24FA8119008BFB71 /* LaunchScreen.storyboard */,
 				B42667DF24FA8119008BFB71 /* Info.plist */,
 			);
 			path = Destini;
+			sourceTree = "<group>";
+		};
+		B42667E524FA814E008BFB71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B42667D724FA8114008BFB71 /* Main.storyboard */,
+				B42667DC24FA8119008BFB71 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
