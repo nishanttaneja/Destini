@@ -44,12 +44,14 @@ struct StoryBrain {
         )
     ]
     
+    // Update Story
     mutating func nextStory(for choice: String) {
         let currentStory = stories[storyNumber]
         if currentStory.choiceOne == choice {storyNumber = currentStory.choiceOneDestination}
         else if currentStory.choiceTwo == choice {storyNumber = currentStory.choiceTwoDestination}
     }
     
+    // Return Data
     func getStoryTitle() -> String {return stories[storyNumber].title}
     func getChoiceOne() -> String {return stories[storyNumber].choiceOne}
     func getChoiceTwo() -> String {return stories[storyNumber].choiceTwo}
